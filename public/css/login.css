@@ -1,0 +1,209 @@
+:root {
+  --bg: #f3f6f9;
+  --card: rgba(255, 255, 255, 0.94);
+  --card-border: #e1e8ef;
+  --text: #263548;
+  --muted: #7b8796;
+  --input: #f8fafc;
+  --shadow: 0 14px 30px rgba(57, 78, 99, 0.09);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: linear-gradient(145deg, #f8fafc 0%, var(--bg) 58%, #edf3f7 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+
+form {
+  width: min(92vw, 430px);
+  padding: 32px 28px 24px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: clamp(1.7rem, 2.2vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid #dce5ed;
+  border-radius: 10px;
+  background: var(--input);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #9bb9d2;
+  background: #ffffff;
+  box-shadow: 0 0 0 3px rgba(155, 185, 210, 0.2);
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #526b82;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 16px rgba(57, 78, 99, 0.14);
+}
+
+input[type="submit"]:hover {
+  transform: translateY(-1px);
+  background: #405a73;
+  box-shadow: 0 10px 20px rgba(57, 78, 99, 0.16);
+}
+
+input[type="submit"]:active {
+  transform: translateY(0);
+}
+
+#error-message {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}:root {
+  --bg: #edf2f7;
+  --card: rgba(255, 255, 255, 0.92);
+  --card-border: rgba(148, 163, 184, 0.22);
+  --text: #111827;
+  --muted: #64748b;
+  --primary: #111827;
+  --primary-soft: #dfeafc;
+  --input: #f8fafc;
+  --shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+}
+  --bg: #f3f6f9;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  background: radial-gradient(circle at top, #f8fafc 0%, var(--bg) 48%, #e8edf5 100%);
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top, #f8fafc 0%, var(--bg) 48%, #e8edf5 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+}
+
+form {
+  width: min(92vw, 430px);
+  padding: 32px 28px 24px;
+  background: var(--card);
+  border: 1px solid #dce5ed;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+    --text: #263548;
+    --muted: #7b8796;
+    --primary: #526b82;
+    --primary-soft: #e7f0f8;
+    --input: #f8fafc;
+    --shadow: 0 14px 30px rgba(57, 78, 99, 0.09);
+  letter-spacing: -0.04em;
+  border-color: #9bb9d2;
+
+  box-shadow: 0 0 0 3px rgba(155, 185, 210, 0.2);
+    background: linear-gradient(145deg, #f8fafc 0%, var(--bg) 58%, #edf3f7 100%);
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: #405a73;
+  color: var(--text);
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.38);
+    border-radius: 14px;
+  background: var(--input);
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--text);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus,
+    border: 1px solid #dce5ed;
+  border-color: rgba(59, 130, 246, 0.8);
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12);
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 12px 14px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #111827 0%, #1f2937 100%);
+  color: white;
+  font-family: inherit;
+  font-size: 0.95rem;
+    background: linear-gradient(135deg, #526b82 0%, #405a73 100%);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 12px 24px rgba(17, 24, 39, 0.18);
+}
+
+input[type="submit"]:hover {
+    box-shadow: 0 8px 16px rgba(57, 78, 99, 0.14);
+  box-shadow: 0 16px 28px rgba(17, 24, 39, 0.2);
+}
+
+input[type="submit"]:active {
+  transform: translateY(0);
+}
+
+#error-message {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
