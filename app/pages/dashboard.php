@@ -20,6 +20,7 @@ $username = currentUser();
           <a href="#" class="nav-item active" data-page="home.php">Home</a>
           <a href="#" class="nav-item" data-page="items.php">Items</a>
           <a href="#" class="nav-item" data-page="employee.php">Employees</a>
+          <a href="#" class="nav-item" data-page="settings.php">Settings</a>
         </nav>
 
         <div class="user-box">
